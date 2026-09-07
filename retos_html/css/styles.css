@@ -1,0 +1,39 @@
+/*ESTILOS GENERALES*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+/* Tarjeta de testimonio */
+.testimonial-card {
+    width: 450px;
+    background-color: #e2d5d5;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+/* Imagen de perfil */
+.testimonial-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Texto del testimonio (cursiva) */
+.testimonial-card blockquote p {
+    font-style: italic;
+}
+
+/* Autor (negrita) */
+.testimonial-author {
+    font-weight: bold;
+}
